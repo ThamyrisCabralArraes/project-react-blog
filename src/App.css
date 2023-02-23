@@ -7,7 +7,7 @@
 }
 
 .div-header {
-  background-color: #13214e;
+  background-color: #2d3142;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -15,17 +15,17 @@
 }
 
 .sign-up {
-  background-color: rgba(22, 255, 22, 0.807);
+  background-color: #ea5c1f;
   padding: 15px 18px;
   border: none;
   border-radius: 5px;
   margin: 10px;
   font-size: 20px;
-  color: #010e38;
+  color: #fff;
 }
 
 .sign-up:hover {
-  background-color: rgba(22, 255, 22, 0.453);
+  background-color: #ea652cc9;
   color: #fff;
 }
 
@@ -41,11 +41,12 @@
 
 .log-in:hover {
   background-color: rgba(255, 255, 255, 0.618);
-  color: #010e38;
+  color: #2d3142;
 }
 
 .follow {
   padding: 8px;
+  width: 100px;
   margin: 5px;
   border: none;
   border-radius: 3px;
@@ -56,22 +57,22 @@
 
 .follow:hover {
   background-color: rgba(255, 255, 255, 0.544);
-  color: #010e38;
+  color: #2d3142;
 }
 
 .unfollow {
   padding: 8px;
+  width: 100px;
   margin: 5px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(22, 255, 22, 0.453);
+  background-color: #ea5c1f;
   color: #fff;
   font-size: 18px;
 }
 
 .unfollow:hover {
-  background-color: rgba(22, 255, 22, 0.701);
-  color: #010e38;
+  background-color: #ea652cc9;
 }
 
 .meu-nome {
@@ -98,23 +99,24 @@
 }
 
 .button-Login {
-  background-color: #13214e;
+  background-color: #ea652c;
+  color: #fff;
   padding: 15px 18px;
   border: none;
   border-radius: 5px;
   margin: 10px;
   font-size: 20px;
   color: fff;
-  color: #fff;
+
   margin-left: 180px;
 }
 
 .button-Login:hover {
-  background-color: #13214ee4;
+  background-color: #f37d4ac9;
 }
 
 .div-input-button {
-  background-color: rgba(22, 255, 22, 0.414);
+  background-color: #2d3142c5;
   border-radius: 10px;
   height: 200px;
   width: 330px;
@@ -133,23 +135,35 @@
   border-top: 1px solid rgba(128, 128, 128, 0.501);
   list-style: none;
   margin: 10px;
+  color: #edeef0;
+}
+
+.ul-menu-lateral li:hover {
+  background-color: rgba(255, 255, 255, 0.141);
 }
 
 .ul-menu-lateral {
   width: 220px;
-  height: 450px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #13214e;
+  background-color: #2d3142e7;
+  height: 80vh;
   color: #fff;
+  border-radius: 10px;
 }
 
 .button-menu-lateral {
   background-image: url(./images/menu1.png);
   background-repeat: no-repeat;
+  margin-top: 5px;
+  border-radius: 5px;
   width: 50px;
   height: 55px;
-  border: 1px solid #13214e;
+  border: 1px solid #2d3142;
   position: fixed;
   margin-left: 160px;
+}
+
+.hidden-menu-lateral {
+  margin-left: -220px;
 }

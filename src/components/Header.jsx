@@ -4,7 +4,7 @@ import { SignIn } from './SignIn';
 export const Header = () => {
   const [follow, setFollow] = useState('follow');
   const [unfollow, setUnfollow] = useState(' + Seguir');
-  const [displayNone, setDisplayNone] = useState('');
+  const [displayNone, setDisplayNone] = useState('displayNone');
 
   const handleFollow = () => {
     setFollow(follow === 'follow' ? 'unfollow' : 'follow');
@@ -12,7 +12,7 @@ export const Header = () => {
   };
 
   const handleShowSingIn = () => {
-    setDisplayNone(displayNone === 'displayNone' ? '' : 'displayNone');
+    setDisplayNone(displayNone ? '' : 'displayNone');
   };
 
   return (
