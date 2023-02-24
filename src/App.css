@@ -143,7 +143,8 @@
 }
 
 .ul-menu-lateral {
-  width: 220px;
+  position: fixed;
+  width: 250px;
   display: flex;
   flex-wrap: wrap;
   background-color: #2d3142e7;
@@ -161,9 +162,44 @@
   height: 55px;
   border: 1px solid #2d3142;
   position: fixed;
-  margin-left: 160px;
+  margin-left: 260px;
 }
 
 .hidden-menu-lateral {
   margin-left: -220px;
+}
+
+.link-menu-lateral {
+  flex: 1;
+  padding: 25px;
+  list-style: none;
+  margin: 10px;
+  color: #edeef0;
+  text-decoration: none;
+}
+
+.link-menu-lateral:hover {
+  color: #edeef07e;
+}
+
+.div-posts {
+  width: 800px;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 500px;
+}
+
+img {
+  width: 800px;
+  height: 500px;
+  margin: 50px;
+}
+
+.App {
+  width: 800px;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 500px;
 }

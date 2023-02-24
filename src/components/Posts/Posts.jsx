@@ -1,11 +1,9 @@
-import './App.css';
-import { Posts } from './components/Posts/Posts';
-import mundo from './images/mundo1.jpeg';
+import mundo2 from '../../images/mundo2.jpg';
 
-function App() {
+export const Posts = () => {
   return (
-    <div className='App'>
-      <img src={mundo} alt='' srcset='' />
+    <div className='div-posts'>
+      <img src={mundo2} alt='' srcset='' />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, corrupti perferendis enim
         hic cumque nisi quae porro ipsum laudantium saepe, voluptates eius voluptatum vero deserunt
@@ -14,7 +12,7 @@ function App() {
         odio. Rem minima voluptas quasi magni sequi vitae nostrum praesentium animi excepturi
         libero.
       </p>
-      <img src={mundo} alt='' srcset='' />
+      <img src={mundo2} alt='' srcset='' />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, corrupti perferendis enim
         hic cumque nisi quae porro ipsum laudantium saepe, voluptates eius voluptatum vero deserunt
@@ -23,7 +21,7 @@ function App() {
         odio. Rem minima voluptas quasi magni sequi vitae nostrum praesentium animi excepturi
         libero.
       </p>
-      <img src={mundo} alt='' srcset='' />
+      <img src={mundo2} alt='' srcset='' />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, corrupti perferendis enim
         hic cumque nisi quae porro ipsum laudantium saepe, voluptates eius voluptatum vero deserunt
@@ -34,6 +32,4 @@ function App() {
       </p>
     </div>
   );
-}
-
-export default App;
+};

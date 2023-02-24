@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export const MenuLateral = () => {
   const [hiddenMenu, setHiddenMenu] = useState('');
@@ -10,11 +11,25 @@ export const MenuLateral = () => {
     <div className='div-menu-lateral'>
       <button onClick={handleMenuLateral} className='button-menu-lateral'></button>
       <ul className={`ul-menu-lateral ${hiddenMenu}`}>
-        <li>Home</li>
-        <li>Posts</li>
-        <li>Fotos</li>
-        <li>Quem Somos</li>
-        <li>Contatos</li>
+        <li>
+          <Link to={'/'} className='link-menu-lateral'>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to={'/posts'} className='link-menu-lateral'>
+            Posts
+          </Link>
+        </li>
+        <li>
+          <Link className='link-menu-lateral'>Fotos</Link>
+        </li>
+        <li>
+          <Link className='link-menu-lateral'>Quem Somos</Link>
+        </li>
+        <li>
+          <Link className='link-menu-lateral'>Contatos</Link>
+        </li>
       </ul>
     </div>
   );
